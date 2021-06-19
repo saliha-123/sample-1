@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,55 +7,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-< <center>
-        <div class="main">
-            <h1>Login</h1>
-
-        <div class="username">
-            <label>username<br</label>
-
-            <input type="text" placeholder="Type your username" class="username2" name="uname" required>    
-        </div>
-
-
-        <div class="password">
-            <label>password</label>
-
-            <input type="password" placeholder="Type your password" class="password2" name="password" required>
-        </div>
-        
-        <p>Forget password?</p>
-        
-        
-        <div class="button">
-        <button type="LOGIN" value="LOGIN" class="button" >LOGIN</button>
-        </div>
-        <p>Or Sign Up Using</p>
-        
-        <div class="facebook">
-        <a class="fa fa-facebook"></a>
-        </div>
-        <div class="twitter">    
-            <a class="fa fa-twitter"></a>
-        </div>
-        <div class="google">
-            <a class="fa fa-google"></a>
-        </div>
-        <div class="add">
-            <p style ="font-size:15px; font-family:sans-serif; font-weight:lighter; color:rgb(53, 51, 51);">Or Sign Up Using</p>
-        
-        <div class="last">
-            <h6>
-                    SIGN UP
-            </h6>
-        </div> 
-        </div>  
-            
-
-
-        </div>
-    </center>
-</body>
-</html>/head>
+</head>
 <body>
-   
+    <div class="bg-box-1"></div>
+    <div class="bg-box-2"></div>
+    <div class="bg-box-3"></div>
+    <div style="font-size: small;"class="login-box">
+        <h1 style="text-align: center;font-size: x-large;">Login</h1>
+        <label class="username">Username</label>
+        <input type="text" placeholder="&#xf2c0; Type your username" class="input" name="uname" required>    
+        <label>Password</label>
+        <input type="password" placeholder="&#xf023; Type your password" class="input" name="password" required>
+        <p id="forgot-password">Forgot password?</p>  
+        <input type="submit" value="LOGIN" class="button" >
+        <p id="sign-up-1">Or Sign Up Using</p>
+        
+        <div class="signup">
+            <a href="https://touch.facebook.com/?refsrc=https%3A%2F%2Ftouch.facebook.com%2F&_rdr"><img id="facebook" src="facebook.png"></a>
+            <a href="https://twitter.com/login?lang=en"><img id="twitter" src="twitter.png"></a>
+            <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img id="google" src="google.png"></a>
+        </div>
+        <p id="sign-up-2">Or Sign Up Using</p>
+        <a class="signup-link" href="url">SIGN UP</a>
+    </div>  
+</body>
+</html>
